@@ -1,5 +1,5 @@
 #!/usr/bin/env lua5.1
-require "table.save"
+require "tablesaver"
 tip = tonumber(io.read())
 local ord = table.load("PLANILHAS/ord.txt")
 print("Loading data "..tip)

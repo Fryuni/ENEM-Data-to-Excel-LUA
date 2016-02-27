@@ -1,6 +1,6 @@
 #!/usr/bin lua
 local quest = table.load("quest.txt")
-require "table.save"
+require "tablesaver"
 
 for item, notas in pairs(quest) do
 	if item < 91 or item > 95 then

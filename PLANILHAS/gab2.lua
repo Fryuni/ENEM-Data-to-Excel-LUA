@@ -1,5 +1,5 @@
 #!usr/bin/env lua
-require "table.save"
+require "tablesaver"
 require "adapt"
 local file = assert(io.open("ITENS_ENEM_2013.csv", "r"))
 local out = assert(io.open("dump.txt", "w+"))

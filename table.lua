@@ -1,5 +1,5 @@
 #!/usr/bin lua
-require "table.save"
+require "tablesaver"
 local quest = table.load("quest2.txt")
 local gab = table.load("PLANILHAS/ord.txt")
 local dump = assert(io.open("dump.txt","w+"))

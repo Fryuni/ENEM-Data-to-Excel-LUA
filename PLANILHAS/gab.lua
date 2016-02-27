@@ -1,5 +1,5 @@
 #!usr/bin/env lua
-require "table.save"
+require "tablesaver"
 require "adapt"
 local filename = {}
 filename["ch"] = "ITENS_CHT"

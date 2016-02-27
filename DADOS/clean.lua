@@ -15,7 +15,7 @@ if args == nil or args[1] == nil or args[2] == nil or args[3] == nil then
 end
 print("Starting program")
 local data = assert(io.open(args[1]..".csv","r"))
-require "table.save"
+require "tablesaver"
 require "adapt"
 
 function selVars(text)
