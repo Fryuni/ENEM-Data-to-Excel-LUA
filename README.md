@@ -3,4 +3,4 @@ This repository contains programs to interpret the ENEM SPSS database provided b
 
 http://portal.inep.gov.br/basica-levantamentos-acessar
 
-This codes will generate in result 360 .csv files as result.
+This codes will generate 360 .csv files as result, one for each question.
